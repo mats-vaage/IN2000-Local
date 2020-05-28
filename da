@@ -1,0 +1,488 @@
+[33mcommit 02c4feca6a56d43e343b0a40106b549166fd4b09[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Merge: afaf1bc 2b81919
+Author: Sverre Lillelien <sverrli@student.matnat.uio.no>
+Date:   Tue Apr 16 10:19:39 2019 +0200
+
+    Merge pull request #68 from IN2000-V19/design_navbar
+    
+    Design navbar
+
+[33mcommit 2b819192cfee667d3cf3b1537f3daa46e75f024d[m[33m ([m[1;31morigin/design_navbar[m[33m)[m
+Merge: 66d7bdc afaf1bc
+Author: Sverre Lillelien <sverrli@student.matnat.uio.no>
+Date:   Tue Apr 16 10:19:16 2019 +0200
+
+    Merge branch 'dev' into design_navbar
+
+[33mcommit afaf1bcd5e68be66effc4977c681aae1d9fd6b61[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 15 20:09:59 2019 +0200
+
+    Conflicts resolved
+
+[33mcommit 09455de443307be9fdcd841af58356b439f5b3d1[m
+Merge: 52dd098 31d2122
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 15 20:08:33 2019 +0200
+
+    Merge branch 'Favorite' into dev
+
+[33mcommit 31d2122392657a0656f4ac120f603a93a5882d92[m[33m ([m[1;31morigin/Favorite[m[33m, [m[1;32mnewDev[m[33m, [m[1;32mFavorite[m[33m)[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Mon Apr 15 19:45:22 2019 +0200
+
+    favorite uten async
+
+[33mcommit 63d5816c6b6b5fd3c7b78f7b48f5c441fd9057d4[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Mon Apr 15 16:14:28 2019 +0200
+
+    lagt inn FileFavoriteManager, og all funksjonalitet fungerer. - ikke enda gjort det om til en bakgrunnsprosess, gjort en del endringer i hele stationpakken
+
+[33mcommit 86ef39a21369cacf65e4b0c5b992c9e45329b0e0[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Mon Apr 15 16:14:15 2019 +0200
+
+    lagt inn FileFavoriteManager, og all funksjonalitet fungerer. - ikke enda gjort det om til en bakgrunnsprosess, gjort en del endringer i hele stationpakken
+
+[33mcommit 52dd098fa22b6626015fd65a8519d39084721bb4[m
+Merge: 6a7848b a766e72
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 15 11:30:17 2019 +0200
+
+    Merge geoSortedList - dev
+
+[33mcommit 6a7848b9496709aaaf4d61b99679beb4306fe1e6[m
+Merge: 124e565 f1f2760
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 15 11:20:32 2019 +0200
+
+    Merge branch 'geoSortedList' into dev
+
+[33mcommit a766e7211d196b64c58c5a0b27df40e37750753d[m
+Merge: 786765b 8407cf7
+Author: Eivind Grønlund <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 15 11:18:38 2019 +0200
+
+    Merge pull request #67 from IN2000-V19/forecastDiagram
+    
+    Forecast diagram
+
+[33mcommit 66d7bdc3da933aa656d6b64fb1638ebb94550d11[m
+Author: Sverre Lillelien <sverre.lillelien@gmail.com>
+Date:   Mon Apr 15 10:29:37 2019 +0200
+
+    fjernet hardcoding av strings i tabs
+
+[33mcommit 49f8b8c767b67011e4a924ac7e07ad7f891acfeb[m
+Author: Sverre Lillelien <sverre.lillelien@gmail.com>
+Date:   Mon Apr 15 10:19:24 2019 +0200
+
+    initial commit, implementert design, opprettet theme #53
+
+[33mcommit 8407cf759a7be4b6c31fe737053331f2a9df889d[m[33m ([m[1;31morigin/forecastDiagram[m[33m)[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Sat Apr 13 16:48:34 2019 +0200
+
+    Små endringer.
+
+[33mcommit c7b6985938aeefc6c991c76e2ed106449769f279[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Fri Apr 12 08:51:52 2019 +0200
+
+    La til padding for økt lesbarhet. Minimumsverdi på 0 på y-akser
+
+[33mcommit 9dbbf50c675a7865092a6c32060164fa4699e4a2[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Thu Apr 11 22:48:11 2019 +0200
+
+    Småfikser på grensesnitt. Fungerende, og kan implementeres design på
+
+[33mcommit d5036095e225a341f0cee5bec4139a4edd10ef36[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Thu Apr 11 22:07:05 2019 +0200
+
+    Fikset småfeil. Fjernet co2 fra alt som har med forecast å gjøre, ettersom den alltid gir null som respons.
+
+[33mcommit 90446b53ac5c72b80172c80800cb11f43d8eabd6[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Thu Apr 11 20:21:35 2019 +0200
+
+    MPAndroidChart implementert. Mangler å bytte dataset dynamisk
+
+[33mcommit 5007c6611b69c1467ab4f003989ddb898d4586a6[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Thu Apr 11 18:37:39 2019 +0200
+
+    AddAqiSeries til diagram fungerer
+
+[33mcommit fa5828a9546d0c6da532acb7d8adc11c1ff6d1c7[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Thu Apr 11 10:31:23 2019 +0200
+
+    Broken. Must revert
+
+[33mcommit 99c706f70a37f7f9e245cb81699bc0908a457c4f[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Thu Apr 11 10:18:01 2019 +0200
+
+    Implementerer nytt graf-bibliotek. Ikke-fungerende.
+
+[33mcommit d9a0ba9b24bc1f1cf9c5337d36f4a90be43fdf03[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Thu Apr 11 10:12:17 2019 +0200
+
+    Implementerer nytt graf-bibliotek: MPAndroidChart. Ikke-fungerende.
+
+[33mcommit d3d6c89652a9fbe45f840e1607e15f53f90921c2[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Wed Apr 10 17:11:44 2019 +0200
+
+    små endringer i Bootstrap
+
+[33mcommit cc8a7ca216f72c1370ac827f2029725b10b0e687[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Wed Apr 10 16:59:33 2019 +0200
+
+    lagt til to adaptere, som swappes mellom.
+
+[33mcommit 985881470c9ede878686a9ecc99069b218e15d35[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Tue Apr 9 23:26:24 2019 +0200
+
+    Fragmentert GraphView. Wonky layout, må fikses. @sverrli, @haakonyg?
+
+[33mcommit a7736bcbb96b4a3b212bd5026e9b4d1939be27fb[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Tue Apr 9 23:25:03 2019 +0200
+
+    Fragmentert GraphView. Wonky layout, må fikses. @sverrli, @haakonyg?
+
+[33mcommit 4d848da5f8de34b3bc82ec845db982773c19b2c1[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Tue Apr 9 22:56:31 2019 +0200
+
+    Revert "Prøvde å fragmentere. Funker ikke."
+    
+    This reverts commit ad217c3dff1042a75e1c68f433047671e4deddc7.
+
+[33mcommit ad217c3dff1042a75e1c68f433047671e4deddc7[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Tue Apr 9 22:56:23 2019 +0200
+
+    Prøvde å fragmentere. Funker ikke.
+
+[33mcommit f44d093853ac25800d52b79eda9aa0ca4001173d[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Tue Apr 9 22:03:31 2019 +0200
+
+    Fikser at kartet ikke lastes inn på nytt ved trykk på knappen
+
+[33mcommit b3b212471d03c4fdc9aa64ea08e0478f4de0154e[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Tue Apr 9 02:45:39 2019 +0200
+
+    POC av linjediagram i forecastActivity
+
+[33mcommit f1f276048991a50a9ba7260fc8a58ea08f362739[m[33m ([m[1;31morigin/geoSortedList[m[33m)[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 23:32:11 2019 +0200
+
+    Fikser #52
+
+[33mcommit 311fe52943aba9ee0ec51f28472efa918b368036[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 23:28:01 2019 +0200
+
+    Fikser søkefiltrering. Sortering etter lokasjonsdata ferdig implementert.
+
+[33mcommit 4ed981818f09526272f046c1efb05fdab319e690[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 17:13:58 2019 +0200
+
+    Implementerer sortering etter lokasjon. Må fikse søkefiltrering
+
+[33mcommit 48e90831876ab3d32a90e578e5441dc78a3e07bb[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 12:37:15 2019 +0200
+
+    init #52
+
+[33mcommit 124e565625558a73013f9a0df6edcc803c33af09[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 786765b 9a241c4
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 12:16:19 2019 +0200
+
+    Merge branch 'master' into dev
+
+[33mcommit 786765b4c0365204d2e5e5ae30fe30bf28da07b0[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 12:05:55 2019 +0200
+
+    fungerende dev, må refaktoreres?
+
+[33mcommit 315040604547afa3bde7c28e5f7aa4d20898005d[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 11:22:11 2019 +0200
+
+    Fix innlasting av homefragment
+
+[33mcommit e15b3ab3a4b24d208c08f3a5e955b33de4d4bf95[m
+Merge: 824be14 ad14471
+Author: Eivind Grønlund <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 11:13:31 2019 +0200
+
+    Merge pull request #59 from IN2000-V19/homeScreenWFavorite
+    
+    Home screen w favorite
+
+[33mcommit ad14471349862d932fbcc1b88b006320721f0753[m[33m ([m[1;31morigin/homeScreenWFavorite[m[33m)[m
+Merge: 1984626 824be14
+Author: Eivind Grønlund <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 11:13:18 2019 +0200
+
+    Merge branch 'dev' into homeScreenWFavorite
+
+[33mcommit 198462665fa4512a68ed1b7328184af5b351dbd7[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Mon Apr 8 11:08:43 2019 +0200
+
+    fjernet understrek variabler
+
+[33mcommit 824be14fded5287aecc1e2f6f6da7c98279851ee[m
+Merge: e96b25b e5309a4
+Author: Eivind Grønlund <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 10:58:52 2019 +0200
+
+    Merge pull request #58 from IN2000-V19/CollapsableInfoFragment
+    
+    Collapsable info fragment
+
+[33mcommit e5309a4e97addcc40d4979f8b318dd08adf96c1e[m
+Author: Thanh Binh Ngoc Nguyen <tbnnguye@student.matnat.uio.no>
+Date:   Mon Apr 8 10:58:06 2019 +0200
+
+    Update AQIAdapter.kt
+    
+    Har fjernet unødvendig kode
+
+[33mcommit d3046c6920942350fa16a9a666d05aa0330a70e4[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Mon Apr 8 10:56:47 2019 +0200
+
+    exception handeling
+
+[33mcommit be2a7e194ee9e3a96c23d7ae46fa0ab99b51e5e1[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Mon Apr 8 10:52:48 2019 +0200
+
+    ready for dev
+
+[33mcommit e7ec9212fc9bafdbd76d6ca7dc570869027e9be6[m
+Merge: a7a85df e96b25b
+Author: Thanh Binh Ngoc Nguyen <tbnnguye@student.matnat.uio.no>
+Date:   Mon Apr 8 10:52:06 2019 +0200
+
+    Merge branch 'dev' into CollapsableInfoFragment
+
+[33mcommit e96b25bfd12a14d1c43a03ab93861e0dbd7b8a58[m
+Merge: cb779dd 1f714e8
+Author: Eivind Grønlund <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 10:48:34 2019 +0200
+
+    Merge pull request #57 from IN2000-V19/tabbedMap
+    
+    Tabbed map implemented
+
+[33mcommit 1f714e8936625f7a024421bb4c2eab7ad5042483[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 10:47:08 2019 +0200
+
+    Funker! Bruker infoWindow for å sende videre til prognose-aktiviteten.
+
+[33mcommit 053b15cf90712b79eb01288c34a9500d1771b8d5[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 8 10:46:11 2019 +0200
+
+    Funker! Men sjuuukt hacky løsning på knapp som sender deg videre til prognose-aktiviteten fra kartet. Må sees videre på.
+
+[33mcommit a7a85df05e66739b8be700194ec056cefa40795b[m
+Author: tbnnguye <tbnnguye@student.matnat.uio.no>
+Date:   Sun Apr 7 20:38:16 2019 +0200
+
+    Små endringer for at det se bedre ut
+
+[33mcommit 5ee1e847d749e27d833eab796f88f33653bcb2f6[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Sat Apr 6 20:10:04 2019 +0200
+
+    lagt til DI på Homefragment. DG starter fra TabbedMenu
+
+[33mcommit 30a83d900e5fb92f23e15a9927d63ac6fb810759[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Sat Apr 6 15:27:51 2019 +0200
+
+    Funker! Men sjuuukt hacky løsning på knapp som sender deg videre til prognose-aktiviteten fra kartet. Må sees videre på.
+
+[33mcommit a1684bc263856cf83957ce225e6ac91782168208[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Sat Apr 6 11:35:42 2019 +0200
+
+    Not functioning. Branching out to tabbedMap, but storing this if revert needed.
+
+[33mcommit 57abfea43904c471b3511427efb8cf285a94ce0d[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Thu Apr 4 22:56:46 2019 +0200
+
+    fikset mindre bug angående søking i favoritter
+
+[33mcommit a301533f6773706ccd3ff960c46456909a8aa823[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Thu Apr 4 22:46:25 2019 +0200
+
+    Loggere og kommentarer lagt til
+
+[33mcommit 9e500356e8dc01462f269f4c2cbd3fcad0d63476[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Thu Apr 4 22:40:58 2019 +0200
+
+    lagt til knappene på home siden, og tilhørende funk
+
+[33mcommit cb779dd04ee813f8efd34942059fd031c7ae4b2d[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Thu Apr 4 16:54:32 2019 +0200
+
+    home satt som start fragment
+
+[33mcommit f383c80558c05ea5f4ae670cb082451b68859a7d[m
+Author: thanhbinh <tbnnguye@student.matnat.uio.no>
+Date:   Thu Apr 4 16:46:58 2019 +0200
+
+    Gjort recyclerviewet på infosiden collapsible
+
+[33mcommit a5989232a4c182c8099ce7f629e6069c029668d2[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Thu Apr 4 16:39:28 2019 +0200
+
+    lagt til kommentarer
+
+[33mcommit 497903a631d2045e2bf8da497c0ea04b010b2b82[m
+Author: erikajo <erikajo@student.matnat.uio.no>
+Date:   Thu Apr 4 16:01:16 2019 +0200
+
+    GJort activity station overview til SearchListFragment
+
+[33mcommit 2b1bdd19475e79930263483b96c0f06fbd44db47[m
+Author: matsuv <matsvaage@gmail.com>
+Date:   Thu Apr 4 14:47:59 2019 +0200
+
+    TestCommit
+
+[33mcommit aab14f804b5005f4bf87dbfefdc5a562b021f602[m[33m ([m[1;31morigin/TabbedMenu[m[33m)[m
+Author: MrBubz <matsvaage@gmail.com>
+Date:   Wed Apr 3 21:25:36 2019 +0200
+
+    Konvertert filene til androidx og lagt til infoAQI som et klikkbart fragment
+
+[33mcommit e3f8fcdf47fb157c4038d3191aa19340c06d1f2e[m
+Author: MrBubz <matsvaage@gmail.com>
+Date:   Tue Apr 2 21:08:56 2019 +0200
+
+    Lagt til klassene:
+    
+    AccountFragment,HomeFragment,InforFragment,MapFragment, TabbedMenuactivity med tilhørende xml-filer for å skape et grunnlag for en tabbed utforming i appen.
+
+[33mcommit 7bab526052fdc3111d2aa8687b481d333205508b[m
+Author: thanhbinh <tbnnguye@student.matnat.uio.no>
+Date:   Tue Apr 2 13:28:59 2019 +0200
+
+    Endret mappestruktur (frontend, backend)
+
+[33mcommit 250248fb45f150977c02ce9dda8c77335fac5598[m
+Merge: 9bfc471 7ddc3ff
+Author: Eivind Grønlund <eivigr@student.matnat.uio.no>
+Date:   Tue Apr 2 12:50:13 2019 +0200
+
+    Merge pull request #44 from IN2000-V19/forecastFragmentTest
+    
+    Add logs to each method in each class in each package
+
+[33mcommit 7ddc3fff7e1039cc72d7779be00aa803526f90d7[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Tue Apr 2 12:48:54 2019 +0200
+
+    Add Logs to each function in package StationPackage
+
+[33mcommit bc80fb0240d74c814f30b1cfa16640005ed819de[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Tue Apr 2 12:37:57 2019 +0200
+
+    Add Logs to each function in package Menu
+
+[33mcommit 9f6fd21828db35f2aa3af653985a4601d27eac75[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Tue Apr 2 12:36:48 2019 +0200
+
+    Add Logs to each function in package AirQualityInfo
+
+[33mcommit bbdd2d2a39a62d61699b8456914e4d8b558de060[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Tue Apr 2 12:28:38 2019 +0200
+
+    Add Logs to each function in ForecastPackage
+
+[33mcommit 9bfc4711ed4d087d9bce9a29d18138fc897d40b3[m
+Merge: 79bc7a3 e32c436
+Author: Eivind Grønlund <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 1 18:00:26 2019 +0200
+
+    Merge pull request #43 from IN2000-V19/Menu
+    
+    Fikset feil i commit
+
+[33mcommit e32c436a8335d4d3c122c2af34a8409437280f4b[m
+Author: matsuv <matsvaage@gmail.com>
+Date:   Mon Apr 1 17:48:56 2019 +0200
+
+    Fikset feil i commit
+
+[33mcommit 79bc7a3b6b7f2ddd612db1907151ef9d56b0a7df[m
+Merge: fb13942 f0f719a
+Author: Eivind Grønlund <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 1 17:46:54 2019 +0200
+
+    Merge pull request #42 from IN2000-V19/Menu
+    
+    Lagt til funksjonalitet for å se forecast for en bestemt stasjon. Velg stasjon fra lista.
+
+[33mcommit f0f719a05399641a17e0476c1c31f0b483a26327[m
+Merge: 1fc25a9 31014ed
+Author: matsuv <matsvaage@gmail.com>
+Date:   Mon Apr 1 17:45:18 2019 +0200
+
+    Implementert Forecast i appen. Alt funker(?), med custom URL-query
+
+[33mcommit 1fc25a9962f0744eda2529befdb25d3d6c6b01d2[m
+Author: matsuv <matsvaage@gmail.com>
+Date:   Mon Apr 1 16:46:24 2019 +0200
+
+    Tiltettelagt for klikkbar stasjon i StationOverview
+
+[33mcommit 31014ed9c2db126cbd3b0e994e9c19ba04195db1[m
+Author: Eivind G <eivigr@student.matnat.uio.no>
+Date:   Mon Apr 1 16:45:12 2019 +0200
+
+    Forecast fragment ferdig. Tar nå med unik stasjons-id og gjør forespørsel til API
+
+[33mcommit 1f5196097a307441bd1a0e22bec6d3900113ff71[m
+Merge: c62ad93 a2f57f8
+Author: matsuv <matsvaage@gmail.com>
+Date:   Mon Apr 1 16:23:05 2019 +0200
+
+    Merge remote-tracking branch 'origin/fragmentedListAndSearch' into Menu
+
+[33mcommit c62ad93126a53928563f840ef93a0149286b8cb0[m
+Author: matsuv <matsvaage@gmail.com>
+Date:   Mon Apr 1 16:21:48 2019 +0200
+
+    Lagt til Boolean i infoKnapp.setOnClickListener slik at den ikke krasjer på gjenklikk
